@@ -3,6 +3,18 @@ https://doing7.tistory.com/4 - TIL 시작할 때 본 글
 
 https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
 
+# 프로그래밍 언어
+* Python
+
+   가장 쉽다고 느껴지는 언어
+   
+   코딩테스트 때문에 공부해야 할까 싶기도 한 언어
+   
+* C#
+
+   Unity에서 동적인 부분을 보완하기 위해 사용
+   
+   2D, 3D, 가상현실(AR), 증강현실(VR) 등을 위해 공부해야 함
 
 # Replit
  * 사용 전에 '더보기 -> Show hidden files' 에서 .replit 파일 수정
