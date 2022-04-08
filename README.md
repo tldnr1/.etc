@@ -16,3 +16,6 @@ https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
    https://gogoonbuntu.tistory.com/4
    
              https://docs.replit.com/tutorials/06-github-and-run-button#looking-at-the-version-control-panel-in-repl-it
+
+* .replit 파일의 run 을 수정하여 시작파일 선택가능
+    ㄴ 이때 파일 탐색은 디렉토리 탐색과 동일 (e.g. test/test1)
