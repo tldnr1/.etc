@@ -25,3 +25,10 @@ print()
 list2.remove(2)
 print('list1 :', list1)
 print('list2 :', list2)
+print()
+
+# in 을 이용하여 리스트 내에 값 존재유무 확인 가능
+if 2 in list1:
+  print('2 is in list1')
+if 2 not in list2:
+  print('2 is not in list2')
