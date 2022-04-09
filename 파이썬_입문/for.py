@@ -13,3 +13,8 @@ print()
 names = ['1번 이름','2번 이름', '3번 이름']
 for i, name in enumerate(names):
   print('{}번 : {}'.format(i+1, name))
+print()
+
+# 리스트의 길이는 len
+for i in range(len(names)):
+  print(i, end=' ')
