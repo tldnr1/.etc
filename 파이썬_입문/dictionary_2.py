@@ -34,6 +34,11 @@ dict : key로 값을 가져오기 때문에 삭제 여부와 상관없다
 
 * 결합
 list1 + list2
-dict1.update(dict2)
+dict1.update(dict2) << update 시 값 수정도 됨 
+(e.g. 
+dict1 = {1 : 100, 2 : 200}
+dict2 = {1 : 1000, 3 : 300}
+dict1.update(dict2)        #{1 : 1000, 2 : 200 : 3 : 300}
+)
 
 '''
