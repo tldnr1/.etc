@@ -18,6 +18,14 @@ https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
    
    2D, 3D, 가상현실(AR), 증강현실(VR) 등을 위해 공부해야 함
 
+* C++
+
+  언리얼 엔진에서 주로 사용하는 코드
+
+  low level 언어이지만, 게임 개발을 다양하게 해보기 위해서 C#과 함께 공부해야한다고 생각함
+
+  특히 요즘 재밌게 보고있는 VR chat에서도 사용된다고 생각(아직 잘 몰라서)해서 관심있음
+
 # Replit
    * 사용 전에 '더보기 -> Show hidden files' 에서 .replit 파일 수정
    * language = '사용할 언어' (e.g. python3)
