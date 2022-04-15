@@ -1,2 +1,2 @@
 language = "python3"
-run = "python 파이썬_입문/type.py"
+run = "python 파이썬_입문/type/class.py"
