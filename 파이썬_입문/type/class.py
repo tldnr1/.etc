@@ -20,7 +20,7 @@ person1.speak()
 
 '''위와 다르게 info, 클래스 내에 메소드 생성 등을 활용하면 아래와 같음'''
 # 이렇게 현실의 개념을 코드에 나타내기 위해 정돈하는 것을 '모델링(modeling)' 이라고 함
-class Human2():
+class Human2:
   # 속성 생성
   def __init__(self, name, language):
     self.name = name
