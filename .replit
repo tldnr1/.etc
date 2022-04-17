@@ -1,5 +1,5 @@
 language = "python3"
-run = "python 파이썬_입문/time.py"
+run = "python 파이썬_입문/'try except'/my_exception.py"
 
 # 파일 명에 띄워쓰기가 있는 경우 '' 로 묶기!
 # e.g. 파일명 : try except            v
