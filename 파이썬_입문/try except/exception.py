@@ -95,29 +95,82 @@ print(end='\n\n')
 
 
 # 4번) 예외의 다른 옵션들 else, finally
-# else : try가 성공했을 경우 작동하는 부분
-# finally : try의 성공 여부와 관계없이 항상 작동하는 부분 (while문에서 주의!)
+# try (해당 구문 안에서 에러 발생 시 처리 가능 - 필수)
+# except (에러 발생시 수행 - 선택이지만 에러를 처리하려면 필수)
+# else (에러 없을 때 수행 - 선택이지만 except 없이는 올 수 없음)
+# finally (에러가 있거나 없거나 상관없이 항상 수행 - 선택)
+# 출처: https://blockdmask.tistory.com/537 [개발자 지망생]
 print('<예시 4번>')
 print('4-1) try + except')
+print('== Program_1 Start')
+try:
+  arr = ['b', 'l', 'o', 'g']
+  print(arr[8]) # error
+  print("== Mid")
+except:
+  print("== error!! but, still alive")
 
-print()
+print("== Program_1 End", end='\n\n')
+
+
 print('4-2) try + except + else')
+print('== Program_2 Start')
+try:
+  arr = ['b', 'l', 'o', 'g']
+  print(arr[0])
+  #print(arr[8])  # 에러가 발생한다면 else는 작동하지 않음!
+  print("== Mid")
+except:
+  print("== error!! but, still alive")
+else:
+    print("== else")
 
-print()
+print("== Program_2 End", end='\n\n')
+
+
 print('4-3) try + finally')
+print('== Program_3 Start')
+try:
+  arr = ['b', 'l', 'o', 'g']
+  print(arr[8]) # error
+  print("== Mid")
+except:
+  print("== error!! but, still alive")
+finally:
+  print("== finally")  # finally는 에러가 발생해도 무조건 실행됨
 
-print()
-print('4-4) try + except + finally')
+print("== Program_3 End", end='\n\n')
 
-print()
+
+# print('4-4) try + except + finally')  => 5와 비슷해서 생략함
 print('4-5) try + except + else + finally')
+print("== Program_5 Start")
+try:
+  arr = ['b', 'l', 'o', 'g']
+  print(arr[0])
+  #print(arr[8])
+  print("== Mid")
+except:
+  print("== except")
+else:
+  print("== else")
+finally:
+  print("== finally")
+
+print("== Program_5 End", end='\n\n\n')
 
 
-print(end='\n\n')
-
-
-# 5번) 사용자 정의 예외 만들기
+# 5번) 예외 객체 살펴보기
 print('<예시 5번>')
+try:
+  1/0
+except Exception as e:  # 예외 객체를 변수 e에 대입
+  exception = e  # 예외 객체를 전역변수 exception에 대입
 
+print(type(exception))  # 예외 객체의 유형 확인
+print(isinstance(exception, ZeroDivisionError))
+print(isinstance(exception, BaseException))
+
+print(str(exception))  # 문자열로 변환하면 오류의 발생원인을 나타내는 문자열이 된다!
 
 print(end='\n\n')
