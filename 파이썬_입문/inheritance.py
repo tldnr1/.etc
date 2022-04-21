@@ -23,6 +23,7 @@
 '''
 
 class GrandParent:
+  print('def 밖에 적으면 그냥 실행됩니다!')
   def __init__(self, name, age):
     print("GrandParent의 __init__ 호출")
     self.name = name
