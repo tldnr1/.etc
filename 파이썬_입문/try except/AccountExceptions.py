@@ -11,16 +11,17 @@ BaseException
 '''
 
 class AccountException(Exception):
-  print('AccountException has been raised')
+  def isRaised(self):
+    print('AccountException has been raised')
 
 class AccountBalanceException(AccountException):
-  print('AccountBalanceException has been raised')
+  def isRaised(self):
+    print('AccountBalanceException has been raised')
 
 class FrozenAccountException(AccountException):
-  print('FrozenAccountException has been raised')
+  def isRaised(self):
+    print('FrozenAccountException has been raised')
 
 class InvalidTransctionException(AccountException):
-  print('InvalidTransctionException has been raised')
-
-
-print('error!!!!')
+  def isRaised(self):
+    print('InvalidTransctionException has been raised')

@@ -26,13 +26,12 @@ BaseException
       ㄴ FrozenAccountException (동결 계좌 예외)
       ㄴ InvalidTransctionException (잘못된 입출금 예외)
 
-AccountException.py 를 만들어서 끌어와보기!
+AccountExceptions.py 를 만들어서 끌어와보기!
 '''
 
-import AccountExceptions
-"""
+import AccountExceptions as AE
 try:
-  raise AE.AccountBalancedException
+  raise AE.AccountBalanceException()
   print(1)
-except:
-  pass"""
+except AE.AccountBalanceException() as e:
+  print(e.isRaised())
