@@ -1,5 +1,5 @@
 language = "python3"
-run = "python '파이썬을 파이썬답게'/Iterable/map.py"
+run = "python '파이썬을 파이썬답게'/Sequence/join.py"
 
 # 파일 명에 띄워쓰기가 있는 경우 '' 로 묶기!
 # e.g. 파일명 : try except            v
