@@ -34,3 +34,9 @@ my_str = input().strip()
 max_count = max(Counter(my_str).values())
 print(''.join(sorted([k for k,v in Counter(my_str).items() if v == max_count])))
 '''
+
+from collections import Counter
+
+Counter('hello world') # Counter({'l': 3, 'o': 2, 'h': 1, 'e': 1, ' ': 1, 'w': 1, 'r': 1, 'd': 1})
+
+print(Counter('hello world'))
