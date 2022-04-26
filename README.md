@@ -39,3 +39,9 @@ https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
 * .replit 파일의 run 을 수정하여 시작파일 선택가능
 
     ㄴ 이때 파일 탐색은 디렉토리 탐색과 동일 (e.g. test/test1)
+    
+# Python
+   * 파이썬 입문 : 기초 정리
+   * 파이썬을 파이썬답게 : 자주 사용하는 기능, 함수 등 정리
+   * 자료구조 & 알고리즘 : !찾아야함
+   * 코딩테스트 연습 : Programmers 사이트에서 Level 1 ~ Level 5까지 순서대로 진행하기
