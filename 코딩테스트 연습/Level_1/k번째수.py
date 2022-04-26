@@ -20,3 +20,7 @@ def solution(array, commands):
 # map + lambda의 활용 설명 : https://tykimos.github.io/2020/01/01/Python_Lambda_Map/
 
 # 위 링크에 map, lambda 개별 설명도 있는데 확인해보기!
+
+# 아래 코드는 '369게임'
+# list(map(lambda x: '짝' if x % 3 == 0 else x, range(1, 10)))
+#  ㄴ 이런 식으로 lambda에 if-else 문을 넣어서 사용할 수도 있음
