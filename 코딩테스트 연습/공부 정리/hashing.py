@@ -1,3 +1,5 @@
+# Level_1/완주하지_못한_선수.py
+
 # Hash : https://yunaaaas.tistory.com/46
 # Hashing : https://comdoc.tistory.com/entry/17-%ED%95%B4%EC%8B%B1hashing-%ED%8C%8C%EC%9D%B4%EC%8D%AC
 

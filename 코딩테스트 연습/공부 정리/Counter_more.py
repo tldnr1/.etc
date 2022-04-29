@@ -1,3 +1,5 @@
+# Level_1/완주하지_못한_선수.py
+
 # Counter 공식 레퍼런스 : https://docs.python.org/3/library/collections.html#collections.Counter
 
 ''' 
