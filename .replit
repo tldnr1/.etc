@@ -1,5 +1,5 @@
 language = "python3"
-run = "python '코딩테스트 연습'/'공부 정리'/Counter_more.py"
+run = "python '코딩테스트 연습'/Level_1/모의고사.py"
 
 # 파일 명에 띄워쓰기가 있는 경우 '' 로 묶기!
 # e.g. 파일명 : try except            v
