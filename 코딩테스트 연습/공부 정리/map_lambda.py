@@ -13,3 +13,15 @@ print( list(map(calc, range(1,6))) )
 
 
 print( list(map(lambda x: x*x, range(1,6))) )
+
+
+'''
+sum + map >> list를 굳이 사용하지 않아도 map에서 요소 순회 가능!
+'''
+
+# 각 자리수 더해서 반환하기
+def sol(n):
+  return sum(map(int, str(n)))
+
+n = 123
+print(sol(n))
