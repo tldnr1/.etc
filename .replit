@@ -1,5 +1,5 @@
 language = "python3"
-run = "python '코딩테스트 연습'/Level_1/최대공약수_최소공배수.py"
+run = "python '코딩테스트 연습'/Level_1/자연수_뒤집어_배열로_만들기.py"
 
 # 파일 명에 띄워쓰기가 있는 경우 '' 로 묶기!
 # e.g. 파일명 : try except            v
