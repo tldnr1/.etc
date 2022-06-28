@@ -3,6 +3,9 @@ https://doing7.tistory.com/4 - TIL 시작할 때 본 글
 
 https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
 
+2022.05월 부로 사용중이던 replit과의 연동이 잘 안되어서 TIL 작성 github로만 하는중
+추가로 2022년 5월 말 ~ 6월 초 동안 휴가였어서 중단 및 6월말까지 컴 견적 공부함
+
 # 프로그래밍 언어
 * Python
 
