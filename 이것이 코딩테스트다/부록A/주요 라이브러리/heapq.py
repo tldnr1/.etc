@@ -19,3 +19,10 @@ def heapsort(iterable):
 
 result = heapsort([1,3,5,7,9,2,4,6,8,0])
 print(result)
+print()
+
+# heapify : list -> heapq를 선형 시간으로 변환
+list = [1,5,9,7,6,4,8,2,3]
+print(list)
+heapq.heapify(list)
+print(list)
