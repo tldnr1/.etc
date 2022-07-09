@@ -1,2 +1,3 @@
-n = input()
-print(type(n))
+a, b = int(input().split(''))
+print(a)
+print(b)
