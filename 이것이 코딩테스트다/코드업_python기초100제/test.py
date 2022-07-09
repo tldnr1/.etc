@@ -1,3 +1,2 @@
-a, b = int(input().split(''))
-print(a)
-print(b)
+n = int(input())
+print('%X' % n)
