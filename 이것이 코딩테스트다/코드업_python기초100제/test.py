@@ -1,2 +1,2 @@
-f1, f2 = map(float, input().split())
-print(round(f1/f2, 3))
+a, b = map(bool, map(int, input().split()))
+print(a and b)
