@@ -6,14 +6,14 @@
 # 가장 뒤쪽에 있는 원소 제거 : pop()
 
 from collections import deque
-data = deque([2,3,4])
+
+data = deque([2, 3, 4])
 data.appendleft(1)
 data.append(5)
 
 print(data)
 print(list(data))
 print()
-
 
 # Counter는 등장 횟수를 세는 기능을 제공
 from collections import Counter
