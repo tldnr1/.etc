@@ -20,7 +20,7 @@
 
  * 주사용 언어 : 어떠한 언어라도 개발이 가능하기에 선택의 폭이 넓은 편.
 
- 1. PHP : 
+ ㄴ PHP, Node.js, JavaScript, C++, Java, Python
 
 
 # 풀스텍
