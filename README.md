@@ -9,6 +9,8 @@ https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
 
 추가로 2022년 5월 말 ~ 6월 초 동안 휴가였어서 중단 및 6월말까지 컴 견적 공부함
 
+Github 기본적인 기능 - https://gist.github.com/ihoneymon/652be052a0727ad59601
+
 # 백엔드 (Back-End) 공부
 
 백앤드 공부는 다른 Repo를 만들어서 하기로 결정!
