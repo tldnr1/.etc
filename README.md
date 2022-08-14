@@ -15,7 +15,7 @@ Github 기본적인 기능 - https://gist.github.com/ihoneymon/652be052a0727ad59
 
 백앤드 공부는 다른 Repo를 만들어서 하기로 결정!
 
-2022년 08월 13일 - Django Repo 생성
+2022년 08월 13일 - Django Repo 생성 (군대에서는 공부하기 힘들듯.. 이론이라도 하자!)
 
 # 프로그래밍 언어
 * Python
