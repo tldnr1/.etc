@@ -11,6 +11,9 @@ https://integer-ji.tistory.com/220 - Replit 시작할 때 본 글
 
 Github 기본적인 기능 - https://gist.github.com/ihoneymon/652be052a0727ad59601
 
+22.09월 부대 내 코로나 증가로 공부가 중간에 너무 끊김
+ - 코딩은 전역 이후에 본격적으로 하기로 결정
+
 # 백엔드 (Back-End) 공부
 
 백앤드 공부는 다른 Repo를 만들어서 하기로 결정!
