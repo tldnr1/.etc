@@ -1,5 +1,6 @@
 // https://nackwon.tistory.com/100 보고 기능 구현하는 중
 // 자주 발생하는 예외 : https://best421.tistory.com/10\
+// 예외처리 잘 작성하는 9가지 방법 : https://hbase.tistory.com/157
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
