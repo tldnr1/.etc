@@ -5,7 +5,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-	    int n;
+	    int num=0;
 	    do {
 	        System.out.println("-------------------------------------");
 	        System.out.println("1.예금");
@@ -15,17 +15,23 @@ public class Main
 	        System.out.print("원하는 기능의 번호를 입력해주세요 >> ");
 	        
 	        try {
-	            n = sc.nextInt();
-	            if (n < 1 || n > 4) {
-	                System.out.println("올바른 번호를 입력해주세요.");
-	                continue;
-	            }
-	            else if (n != 4) {
-	                System.out.println("입력된 값은 " + n + "입니다.");
-	            }
-	            else {
-	                System.out.println("종료를 선택했습니다.");
-	                break;
+	            num = sc.nextInt();
+	            switch (num) {
+	                case 1:
+	                    System.out.println("1번-예금을 선택");
+	                    break;
+	                case 2:
+	                    System.out.println("2번-출금을 선택");
+	                    break;
+	                case 3:
+	                    System.out.println("3번-잔고를 선택");
+	                    break;
+	                case 4:
+	                    System.out.println("4번-종료를 선택");
+	                    break;
+	                default:
+	                    System.out.println("-------------------------------------");
+	                    break;
 	            }
 	        }catch (Exception e) {
 	            System.out.println("정수를 입력해주세요.");
@@ -34,6 +40,6 @@ public class Main
 	        }finally {
 	            System.out.println();
 	        }
-	    }while(true);
+	    }while(num!=4);
 	}
 }
