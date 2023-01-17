@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main
 {
 	public static void main(String[] args) {
-	    Scanner in = new Scanner(System.in);
+	    Scanner sc = new Scanner(System.in);
 	    int n;
 	    do {
 	        System.out.println("-------------------------------------");
@@ -15,9 +15,9 @@ public class Main
 	        System.out.print("원하는 기능의 번호를 입력해주세요 >> ");
 	        
 	        try {
-	            n = in.nextInt();
+	            n = sc.nextInt();
 	            if (n < 1 || n > 4) {
-	                System.out.println("다시 입력해주세요.");
+	                System.out.println("올바른 번호를 입력해주세요.");
 	                continue;
 	            }
 	            else if (n != 4) {
@@ -28,7 +28,8 @@ public class Main
 	                break;
 	            }
 	        }catch (Exception e) {
-	            System.out.println("잘못된 입력입니다. 정수를 입력해주세요.");
+	            System.out.println("정수를 입력해주세요.");
+	            sc.nextLine();  // 버퍼 비우기
 	            continue;
 	        }finally {
 	            System.out.println();
