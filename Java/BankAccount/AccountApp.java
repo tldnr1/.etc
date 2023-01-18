@@ -36,7 +36,7 @@ public class Main
 	                    break;
 	                case 3:
 	                    System.out.println("3번-잔고를 선택");
-	                    //account.showBalance(money);
+	                    //account.showBalance();
 	                    break;
 	                case 4:
 	                    System.out.println("4번-종료를 선택");
@@ -53,5 +53,6 @@ public class Main
 	            System.out.println();
 	        }
 	    }
+		sc.close();
 	}
 }
