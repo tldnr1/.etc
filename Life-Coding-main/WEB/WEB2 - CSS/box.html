@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            /*
+            block level element - 화면 전체 사용
+            */
+            h1, a {  /* , 를 통해 동시에 가능 */
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                /* display: inline;  =>  element level을 강제 지정 */
+                /* display: none  => 화면에 표시하지 않을 수 있음! */
+            }
+
+            /*
+            inline element - 화면의 일부 사용
+            a {
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+            }
+            */
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <a href="https:en.wikipedia.org/wiki/Cascading Style Sheets">
+            CSS</a> information 
+    </body>
+</html>

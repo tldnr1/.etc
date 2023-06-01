@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WEB1 - HTML</title>
+        <meta charset="utf-8">  <!-- utf-8 로 문서를 읽어줌. 한글 안깨지게 하기 위함 -->
+        <script src='colors.js'></script>
+    </head>
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+        <input id='night_day' type='button' value='night' onclick="
+            nightDayHandler(this)
+        ">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+
+        <h2>HTML</h2>
+        <!-- <a>는 anchor(닻)이라는 뜻으로 링크를 걸어주는 tag임! -->
+        <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification">
+            Hypertext Markup Language (HTML)</a> is the standarad markup language for
+            <strong>creating <u>web</u> pages</strong> and web applications.
+            Web browsers receive HTML documents from a web server or from local storage
+            and render them into multimedia web pages. HTML describes the 
+            structure of a web page semantically and originally included cues for the 
+            appearance of the document</p>
+        <img src="1.jpeg" width="100%">  <!-- img는 이미지를 가져오는 tag. width="100%"는 가로를 화면에 딱 맞춘다는 뜻 -->
+        <p style="margin-top:45px;">  <!-- style은 CSS임 -->
+            문단의 구분은 'p tag'를 통해 함
+            'br tag'는 enter키랑 똑같음
+            의미상으로 문단 구분은 'p tag'로 해주는게 맞음
+        </p>
+    </body>
+</html>

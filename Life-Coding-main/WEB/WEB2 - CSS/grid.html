@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #grid {
+                border: 5px solid pink;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                /* 2fr = 남은 화면을 2의 비중으로 차지 */
+                /* 100px 1fr 1fr = 100px고정 1개, 남은 화면을 2개가 1:1로 나눠가짐 */
+            }
+            /* div는 block element, span은 inline element이고 의미는 같다! */
+            div {  /* div는 꾸미기를 위한 무색,무취의 tag! */
+                border: 5px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>NAVIGATION</div> 
+            <div>ARTICLE</div>
+        </div>
+    </body>
+</html>
+
+<!-- caniuse.com 이라는 사이트에서 
+        사용하려는 기술이 아직까지도 유효한지 검색 가능 -->

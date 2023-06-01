@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WEB1 - CSS</title>
+        <meta charset="utf-8">  <!-- utf-8 로 문서를 읽어줌. 한글 안깨지게 하기 위함 -->
+        <!-- <style> 부분은 CSS임! style 내에 있는 부분으로 스타일링을 하라는 것! -->
+        <style>
+            /* '# : id 선택자' > '. : 클래스 선택자' > '태그 선택자' 의 순으로 강하다.
+                즉, id 선택자가 1등으로 적용된다 */ 
+
+            body {
+                margin: 0;
+            }
+            a {  /* 선택자 : Selector - 이 페이지의 모든 a에 적용한다는 뜻 */
+                color: black;  /* 효과 : declaration - 선택자에 적용할 효과를 의미 */
+                text-decoration: none;  /* ; 은 줄 구분용임 */
+            }
+            /* #active {  #은 id 선택자이다. 클래스 선택자보다 강하다!
+                color:red;
+            } */
+            /*.saw {   .saw = 클래스가 saw인 선택자를 가리킴  . 이 중요함! 
+                color:gray;
+            } */
+            h1 {
+                /* property: value 의 구조 */
+                /* 따라서 검색할 때 property를 검색하면 됨! */
+                font-size: 50px;
+                text-align: center;  /* css text center property 라고 검색했음 */
+                border-bottom: 1px solid gray;
+                margin: 0;
+                padding: 20px;
+            }
+            ol {
+                border-right: 1px solid gray;
+                width: 100px;
+                margin: 0;
+                padding: 20px;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            #grid ol {  /* id="grid" 아래에 <ol> 태그가 오면 적용하는 style */
+                padding-left: 33px;
+            }
+            #article {
+                padding-left: 25px;
+            }
+            
+            /* 미디어 쿼리 : 화면의 변화에 반응하는 웹 => @media로 구현 */
+            /* screen width < 600px */
+            @media(max-width:600px) {
+                #grid {
+                    display: block;
+                }
+                ol {
+                    border-right: none;
+                }
+                h1 {
+                    border-bottom: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+        <div id="grid">
+            <ol>
+                <!-- <a>에 class="saw" 를 넣으면 style의 .saw 를 이용할 수 있음 -->
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JavaScript</a></li>
+            </ol>
+            <div id='article'>
+                <h2>CSS</h2>
+                <p>
+                    CSS 페이지 입니다!
+                </p>
+                <!--
+                    <h1><a href="index.html">WEB</a></h1>
+                <ol>
+                    <li><a href="1.html">HTML</a></li>
+                    <li><a href="2.html">CSS</a></li>
+                    <li><a href="3.html">JavaScript</a></li>
+                </ol>
+                -->
+            </div>
+        </div>
+    </body>
+</html>
